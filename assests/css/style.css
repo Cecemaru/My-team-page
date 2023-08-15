@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap");
+
+/* * {
+  border: black solid 1px !important;
+} */
+
+section h1,
+.card span {
+  font-family: "PT Serif", serif;
+}
+
+section h2,
+.card h3,
+section p {
+  font-family: "Poppins", sans-serif;
+}
+
+.card span {
+  writing-mode: vertical-lr;
+}
+
+.team-cards .card:nth-child(even) {
+  margin-top: 30px;
+}
