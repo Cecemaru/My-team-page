@@ -22,3 +22,17 @@ section p {
 .team-cards .card:nth-child(even) {
   margin-top: 30px;
 }
+
+@media only screen and (min-width: 640px) {
+  .team-cards .card:nth-child(3n - 1) {
+    margin-top: 105px;
+  }
+
+  .team-cards .card:nth-child(4) {
+    margin-top: 0px;
+  }
+
+  .team-cards .card:nth-child(6) {
+    margin-top: 0px;
+  }
+}
